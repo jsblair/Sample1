@@ -5,12 +5,20 @@
   </head>
   <body>
     <a-scene>
-	<a-sky color="#d9d9d9"></a-sky>
-<!--	Valid values: none, default, contact, egypt, checkerboard, forest, 
-	    goaland, yavapai, goldmine, threetowers, poison, arches, tron,
-	    japan, dream, volcano, starry, osiris, moon-->
-	    
-		<a-entity environment="preset:forest"></a-entity>
+        <a-sky color="#d9d9d9"></a-sky>
+          <!--	Valid values: none, default, contact, egypt, checkerboard, forest, 
+          goaland, yavapai, goldmine, threetowers, poison, arches, tron,
+          japan, dream, volcano, starry, osiris, moon-->
+          
+        <a-entity environment="preset:forest"></a-entity>
+
+        <a-assets>
+				
+          <a-asset-item id="scene2_gltf" src="https://raw.githubusercontent.com/jsblair/Sample1/refs/heads/main/gundam_white_ghost_003/scene.gltf?token=GHSAT0AAAAAADBR73UQIHQ3YNBAJQHT5QCYZ77H4DA" ></a-asset-item>
+        
+        </a-assets> 
+        
+        <a-gltf-model position="0 1.6 -2" scale="1 1 1" src="#scene2_gltf"></a-gltf-model>
 
     </a-scene>
   </body>
