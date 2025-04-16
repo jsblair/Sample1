@@ -1,0 +1,8 @@
+Model Information:
+* title:	Gundam white ghost 003
+* source:	https://sketchfab.com/3d-models/gundam-white-ghost-003-bd6d866ac4064c7b966712730aced76e
+* author:	joan.pico (https://sketchfab.com/joan.pico)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
